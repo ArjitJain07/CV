@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <label>Your Name:</label>
+      <input type="text" name="" value="">
+      <br>
+      <label for="DOB">Date Of Birth:</label>
+      <input type="date" id="DOB" value="">
+      <br>
+      <label>Gender:</label>
+      <input type="radio" id="Male" value="M">
+      <label for="Male">M</label>
+      <input type="radio" id="Female" value="F">
+      <label for="Female">F</label>
+      <br>
+      <label for="Fcolor">Favourite Color:</label>
+      <input type="color" id="Fcolor" value="#a7b73c">
+      <br>
+      <label>Do you accept the terms and conditions?</label>
+      <input type="checkbox" id="Yes" checked>
+      <label for="Yes">Yes</label>
+      <input type="checkbox" id="No">
+      <label for="No">No</label>
+      <br>
+      <label for="uploadFile">Upload Resume: </label>
+      <input type="file" id="uploadFile" value="" accept="image/jpeg, image/png" multiple>
+      <br>
+      <input type="image" id="captcha" alt="Not found" src="images/apple.jpg" height=100 width=100>
+      <br>
+      <label for="captcha">Select the image containing apple:</label>
+      <br>
+      <input type="submit" value="Subscribe">
+      <br>
+      <label for="exp">How good was your experience of the site?</label>
+      <input type="range" id="exp" value="7" min=0 max=10 list="tickmarks">
+      <datalist id="tickmarks">
+        <option value="0" label="0"></option>
+        <option value="1" label="1"></option>
+        <option value="2" label="2"></option>
+        <option value="3" label="3"></option>
+        <option value="4" label="4"></option>
+        <option value="5" label="5"></option>
+        <option value="6" label="6"></option>
+        <option value="7" label="7"></option>
+        <option value="8" label="8"></option>
+        <option value="9" label="9"></option>
+        <option value="10" label="10"></option>
+      </datalist>
+      <br>
+      <label for="passcode">Password:</label>
+      <input type="password" id="passcode" maxlength="4">
+    </form>
+  </body>
+</html>
